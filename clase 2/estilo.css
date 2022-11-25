@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box
+}
+
+body{
+    background-color: rgb(255, 183, 195) 
+}
+#tituloPrincipal{
+    background-position:bottom
+}
+nav{
+    background-color: rgb(227, 127, 227);
+    padding: 10px;
+    width:30%
+
+}
+
+ul{
+    list-style-type: none
+    
+}
+
+.menuPrincipal{
+    display: inline;
+    padding: 20px;
+}
+
+h1{
+    background-image: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    margin: 40px 0px;
+    padding: 50px;
+    height: 500px;
+    text-align: center;
+}
+
