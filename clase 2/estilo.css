@@ -1,5 +1,6 @@
-*{
-    box-sizing:border-box
+*{ font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -28,9 +29,30 @@ ul{
 h1{
     background-image: url(./imagenes/fondo.jpg);
     background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
     margin: 40px 0px;
     padding: 50px;
+    padding-top: 300px;
     height: 500px;
     text-align: center;
-}
+    font-weight: bolder;
+    font-size: 7em;
 
+}
+.imagenes{
+    max-width: 400px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 50px; 
+}	
+.img-de-tarjetas{
+    width: 100%;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.logo-ig{
+    width: 35px;
+}
