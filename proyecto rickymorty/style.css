@@ -3,24 +3,30 @@
     font-family: 'Raleway', sans-serif;
 
 }
+
 body{
-    background-image: url(./imagenes/ricky&morty.jpeg);
+    background-image: url(./imagenes/rickymorty\ 1.jpg);
     background-size: 100%;
     background-attachment: fixed;
-    background-size: cover;
+
+    
   
 }
+
 h1{
     font-weight: 500;
 }
+
 .principal-search{
     height: 100vh;
 }
+
 h1, nav{
     width: 600px;  
     padding: 40px!important;
     color: #344D67;
 }
+
 .container-header{
     background-color: #ffffffe6;
     height: 500px;
@@ -29,17 +35,20 @@ h1, nav{
 .botones{
     background-color:#344D67!important;
 }
+
 .botones:hover, .boton:hover, .btn-active{
     background-color: #6ECCAF !important;
     color: #344D67!important;
     width: fit-content;
     
 }
+
 .bg-blue{
     background-color:#344d67;
     position: fixed;
     top: 0%;
 }
+
 a{
     color: #6ECCAF !important;
 }
@@ -48,11 +57,13 @@ a{
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
 }
+
 .card{
     width: fit-content !important;
     background-color: #223142!important;
     color:whitesmoke;
 }
+
 .card>img{
     width: 100%;
 
@@ -62,14 +73,15 @@ a{
     display: none;
     
 }
+
 .list-group{
     width: 350px!important;
 }
+
 .list-group-item{
     background-color: transparent !important;
     color: whitesmoke !important;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
 }
 
 .list-group-item:hover{
@@ -77,9 +89,11 @@ a{
     color: #344D67!important;
     cursor: pointer;
 }
+
 .section-filters{
     color:#6ECCAF ;
 }
+
 .form-switch{
     color:#6ECCAF ;
     background-color: #344D67;
@@ -90,23 +104,28 @@ a{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
     background-color: #b1f0dc ;
 }
+
 .form-switch .form-check-input:checked{
     background-color: #223142; 
 }
+
 .form-check-input:checked+ .form-check-label{
     color: whitesmoke;
 }
+
 .main-contact-div{
     
-    background-color: rgba(92, 117, 146,0.9);
-    
+    background-color: rgba(92, 117, 146,0.9);  
 }
+
 .colorBLue{
     color:#223142!important;
 }
+
 .main-contact{
     height: 100vh;
 }
+
 .colorW{
     color: whitesmoke !important;
 }
