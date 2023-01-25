@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Proyecto - Rick & Morty</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  w-100 bg-blue">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rick & Morty</a>
+
+                <ul class="navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link boton" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link boton" aria-current="page" href="./index.html">Character</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-active " href="./contacto.html">Contact</a>
+                </li>
+                </ul>
+
+            </div>
+        </nav>        
+    </header>
+    <main class="container-fluid main-contact">
+       <div class=" main-contact-div d-flex flex-column justify-content-center align-items-center m-auto mt-5 w-75 h-75">
+        <h1 class="row colorBLue">Contact</h1>
+        <h2 class="row colorBLue">Leave us your information so we can contact you</h2>
+
+        <form class="row colorBLue g-3 p-4">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control p-2" id="name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control p-2" id="email">
+            </div>
+
+            <div class="col-md-12">
+              <label for="coment" class="form-label">Mesage</label>
+              <textarea  class="form-control p-4" id="coment" ></textarea>
+            </div>
+        
+
+            <div class="col-12">
+              <button type="submit" class="btn botones colorW">Sign in</button>
+            </div>
+          </form>
+        </div>
+    </main>
+
+</body>
+</html>
